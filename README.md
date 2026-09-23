@@ -35,6 +35,7 @@ To fix these security and compliance gaps, we rebuilt the environment from scrat
 
 ## Repository Structure
 
+```text
 Basic-Employee-Onboarding-AD-RBAC/
 ├── Documentation/
 │   ├── Domain Config File.txt
@@ -65,6 +66,7 @@ Basic-Employee-Onboarding-AD-RBAC/
 │   ├── Day4-Jane's-corrected-group-membership.png
 │   └── Day4-Jane's-incorrect-OU-placement.png
 └── README.md
+```
 
 * /Documentation:Contains infrastructure baseline configurations, security group design specifications, directory user rosters, and access mapping documentation.
 
