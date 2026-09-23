@@ -34,38 +34,7 @@ To fix these security and compliance gaps, we rebuilt the environment from scrat
 * Documented full incident resolution with root cause analysis
 
 ## Repository Structure
-Basic-Employee-Onboarding-AD-RBAC/
-├── Documentation/
-│   ├── Domain Config File.txt
-│   ├── Security Group Doc.txt
-│   ├── User List Documentation.txt
-│   └── RBAC-Structure.md
-├── Incident-Reports/
-│   └── NMG-0047-Resolution.txt
-├── Screenshots/
-│   ├── Day1-AD-Users-and-Computers-showing.png
-│   ├── Day1-Dcdiag-Results.png
-│   ├── Day1-Server-Manager.png
-│   ├── Day2-All-four-OUs.png
-│   ├── Day2-Security-Group-Finance.png
-│   ├── Day2-Security-Group-HR.png
-│   ├── Day2-Security-Group-IT.png
-│   ├── Day2-Security-Group-Operations.png
-│   ├── Day3-Final-expanded-tree.png
-│   ├── Day3-Group-membership-of-Finance-OU.png
-│   ├── Day3-Group-membership-of-HR-OU.png
-│   ├── Day3-Group-membership-of-IT-OU.png
-│   ├── Day3-Group-membership-of-Operations-OU.png
-│   ├── Day3-Users-inside-Finance-OU.png
-│   ├── Day3-Users-inside-HR-OU.png
-│   ├── Day3-Users-inside-IT-OU.png
-│   ├── Day3-Users-inside-Operations-OU.png
-│   ├── Day4-Jane's-corrected-OU.png
-│   ├── Day4-Jane's-corrected-group-membership.png
-│   └── Day4-Jane's-incorrect-OU-placement.png
-└── README.md
 
-## Folder Breakdown
 /Documentation: Contains infrastructure baseline configurations, security group design specifications, directory user rosters, and access mapping documentation.
 
 Domain Config File: Baseline domain parameters, DC hostname, static IP configuration, and creation date.
@@ -89,4 +58,3 @@ Day 2 (OU & Security Group Architecture): View of all four departmental OUs, plu
 Day 3 (User Provisioning & RBAC Validation): Department-by-department proof of users inside each OU, membership verification for each security group, and the final expanded AD tree hierarchy.
 
 Day 4 (Incident NMG-0047 Remediation): Evidence captures showing Jane Cooper's initial incorrect OU placement, relocation to the HR OU, and assignment to the HR-Users security group.
-
