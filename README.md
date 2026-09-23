@@ -8,7 +8,7 @@ Northstar Medical Group ran into serious operational and security issues after o
 To fix these security and compliance gaps, we rebuilt the environment from scratch with a standardized Active Directory domain (NMG.com). We structured dedicated Organizational Units (OUs) for HR, Finance, IT, and Operations, pairing them with security groups to enforce true Role-Based Access Control (RBAC). Instead of manual setup, automated assignments now ensure staff only receive the drives and resources required for their roles. Every account is provisioned under a strict principle of least privilege with full user metadata, cutting human error and locking down access. To verify everything worked in practice, we tested the new workflows against real-world support tickets, such as onboarding issue NMG-0047, to ensure day-one readiness for new hires.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+[Walkthrough Video Coming Soon - Link will be added after recording]
 
 ## Tools Used
 * Windows Server
