@@ -28,6 +28,6 @@ To fix these security and compliance gaps, we rebuilt the environment from scrat
 * Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
-* Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Built NMG.com domain from scratch.
+* Restructured access controls across 4 departmental OUs and dedicated security groups, enforcing strict least-privilege permissions to eliminate excess access.
+* Resolved onboarding ticket NMG-0047 by auditing Active Directory, remediating misconfigured OU placements, and restoring missing security group memberships.
