@@ -1,0 +1,13 @@
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped
+drives differ from teammates.
+Root cause: After checking the user profile, I noticed the account was in the wrong OU
+(Operations), which caused it to receive incorrect permissions.
+Fix applied: To resolve this, I moved the user to the HR OU, removed them from the old
+group, and added them to the correct one so they would have proper access.
+Verification: I verified the changes in Active Directory Users and Computers by checking
+that the user is now in the HR OU. I also reviewed the 'Member Of' tab to make sure they
+were removed from the old group and properly added to the HR group.
+Date resolved: 9/20/2026
+Resolved by: Josue M Medina
