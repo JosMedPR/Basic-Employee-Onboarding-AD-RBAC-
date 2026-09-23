@@ -37,24 +37,24 @@ To fix these security and compliance gaps, we rebuilt the environment from scrat
 
 */Documentation:Contains infrastructure baseline configurations, security group design specifications, directory user rosters, and access mapping documentation.
 
-    *Domain Config File: Baseline domain parameters, DC hostname, static IP configuration, and creation date.
-
-    *Security Group Doc: Breakdown of OU names, corresponding security groups, and operational purposes.
-
-    *RBAC-Structure.md: Full RBAC matrix mapping departmental OUs, security groups, assigned members, and system access scopes.
-
-    *User List Documentation: Complete roster of 15 provisioned users, their UPNs, departments, titles, and group assignments.
+   *Domain Config File: Baseline domain parameters, DC hostname, static IP configuration, and creation date.
+   
+   *Security Group Doc: Breakdown of OU names, corresponding security groups, and operational purposes.
+   
+   *RBAC-Structure.md: Full RBAC matrix mapping departmental OUs, security groups, assigned members, and system access scopes.
+   
+   *User List Documentation: Complete roster of 15 provisioned users, their UPNs, departments, titles, and group assignments.
 
 */Incident-Reports:* Contains documentation and root-cause analysis for administrative support escalations.
-
-    *NMG-0047-Resolution.txt: Detailed post-incident write-up documenting the investigation, misconfiguration discovery, remediation steps, and resolution confirmation for Jane Cooper's account.
+   
+   *NMG-0047-Resolution.txt: Detailed post-incident write-up documenting the investigation, misconfiguration discovery, remediation steps, and resolution confirmation for Jane Cooper's account.
 
 /Screenshots: Visual validation covering every stage of deployment, directory hierarchy, user provisioning, and incident resolution:
 
-    *Day 1 (Domain Setup): Verification in Active Directory Users and Computers (ADUC), successful dcdiag domain health check output, and Server Manager status.
-
-    *Day 2 (OU & Security Group Architecture): View of all four departmental OUs, plus individual evidence captures for the Finance, HR, IT, and Operations security groups.
-
-    *Day 3 (User Provisioning & RBAC Validation): Department-by-department proof of users inside each OU, membership verification for each security group, and the final expanded AD tree hierarchy.
-
-    *Day 4 (Incident NMG-0047 Remediation): Evidence captures showing Jane Cooper's initial incorrect OU placement, relocation to the HR OU, and assignment to the HR-Users security group.
+   *Day 1 (Domain Setup): Verification in Active Directory Users and Computers (ADUC), successful dcdiag domain health check output, and Server Manager status.
+   
+   *Day 2 (OU & Security Group Architecture): View of all four departmental OUs, plus individual evidence captures for the Finance, HR, IT, and Operations security groups.
+   
+   *Day 3 (User Provisioning & RBAC Validation): Department-by-department proof of users inside each OU, membership verification for each security group, and the final expanded AD tree hierarchy.
+   
+   *Day 4 (Incident NMG-0047 Remediation): Evidence captures showing Jane Cooper's initial incorrect OU placement, relocation to the HR OU, and assignment to the HR-Users security group.
