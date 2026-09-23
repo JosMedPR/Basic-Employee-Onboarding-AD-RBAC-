@@ -26,6 +26,14 @@ To fix these security and compliance gaps, we rebuilt the environment from scrat
 * Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
-* Built NMG.com domain from scratch.
-* Restructured access controls across 4 departmental OUs and dedicated security groups, enforcing strict least-privilege permissions to eliminate excess access.
-* Resolved onboarding ticket NMG-0047 by auditing Active Directory, remediating misconfigured OU placements, and restoring missing security group memberships.
+* Built NMG.com domain from scratch
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Implemented RBAC with security groups mapped to each department
+* Provisioned 15 user accounts with consistent naming conventions and attribute standards
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis
+
+## Repository Structure
+
+
+
